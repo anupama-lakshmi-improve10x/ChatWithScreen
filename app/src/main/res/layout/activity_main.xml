@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/template_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Template"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/message_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/series_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Series Screen"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/movies_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movies Screen"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/advanced_series_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adavanced  Series Screen"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/grocery_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grocery Items"
+        android:textAllCaps="false" />
+</LinearLayout>
